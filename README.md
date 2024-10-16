@@ -2,7 +2,7 @@
 Go package for [Podwizzard_GO](https://github.com/Wodlfvllf/Podwizzard_GO) 
 
 ## Usage
-You must run [podwiz_client](https://github.com/Wodlfvllf/Podwizzard_GO/releases/tag/v0.0.1)  before connecting to it!
+You must run client before connecting to it!
 
 **Make sure that the shell you ran podwiz_client into is pointing to the same docker-daemon as that of k8s**
 
@@ -15,11 +15,11 @@ func main() {
 	list := c.List(scheduleName) // scheduleName doesn't affect for now, you can pass empty string
 }
 ```
-`name` must be same as the username in Dockerfile. (see how [Dockerfile](https://github.com/Wodlfvllf/Podwizzard_GO/blob/main/chall-1/Dockerfile) should look like)
+`name` must be same as the username in Dockerfile. (see how [Dockerfile](https://github.com/Wodlfvllf/PodWIzard/blob/main/chall-1/Dockerfile) should look like)
 
 `machineName` is the name you want to give your shell.
 
-`path` is path of a directory with Dockerfile and a pod.yaml file (see [chall-1](https://github.com/Wodlfvllf/Podwizzard_GO/tree/main/chall-1))
+`path` is path of a directory with Dockerfile and a pod.yaml file (see [chall-1](https://github.com/Wodlfvllf/PodWIzard/tree/main/chall-1))
 
 `imgName` name of the image to be used for shell (If image is not found, image is built using the Dockerfile in `path`)
 
