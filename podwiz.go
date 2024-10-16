@@ -2,7 +2,7 @@ package Podwizzard_GO
 
 import (
 	"fmt"
-	"github.com/Wodlfvllf/Podwizzard/reqProto"
+	"github.com/Wodlfvllf/Podwizzard_GO/reqProto"
 	"net"
 	"google.golang.org/protobuf/proto"
 	"path/filepath"
