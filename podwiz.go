@@ -34,7 +34,7 @@ type Socket struct {
 func Connect() *Socket {
 	socket, err := net.Dial("unix", "/tmp/PodWIzard.sock")
 	if err != nil {
-		fmt.Println("Cannot connect to Podwizzard_GO!\nAre you sure it is running?")
+		fmt.Println("Cannot connect to PodWIzard!\nAre you sure it is running?")
 		return nil
 	}
 
