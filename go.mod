@@ -1,4 +1,4 @@
-module github.com/Wodlfvllf/Podwizzard_GO
+module github.com/Wodlfvllf/Podwizzard
 
 go 1.23.2
 
